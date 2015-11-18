@@ -42,6 +42,7 @@ module.exports = {
 		root: path.join( appConfig.root, "./client/js" ),
 		extensions: [ "", ".webpack.js", ".web.js", ".js", ".jsx" ],
 		alias: _.extend( {
+				spec: path.resolve( appConfig.root, "client/spec" ),
 				window: "infrastructure/windowProxy",
 				"react-router": "react-router/umd/ReactRouter",
 				modernizr: "lib/modernizr/modernizr.custom"

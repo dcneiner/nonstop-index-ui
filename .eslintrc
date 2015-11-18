@@ -1,7 +1,17 @@
 {
   "globals": {
     "DEBUG": false,
-    "define": false
+    "define": false,
+    "_": false,
+    "lux": false,
+    "postal": false,
+    "React": false,
+    "ReactDOM": false,
+    "ReactUtils": false,
+    "should": false,
+    "sinon": false,
+    "when": false,
+    "getMockReactComponent": false
   },
 
   "ecmaFeatures": {
@@ -32,6 +42,6 @@
     "react/no-did-update-set-state": 1,
     "react/react-in-jsx-scope": 1,
     "react/self-closing-comp": 1,
-    "react/prop-types": 1
+    "react/prop-types": 0
   }
 }

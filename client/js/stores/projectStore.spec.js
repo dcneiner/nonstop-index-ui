@@ -1,9 +1,9 @@
 import projectStoreFactory from "inject!stores/projectStore";
 
-const packagesResponse = require( "../data/packagesResponse" );
-const projectsParsed = require( "../data/projectsParsed" );
-const hostsResponse = require( "../data/hostsResponse" );
-const projectsWithHostsParsed = require( "../data/projectsWithHostsParsed" );
+const packagesResponse = require( "spec/data/packagesResponse" );
+const projectsParsed = require( "spec/data/projectsParsed" );
+const hostsResponse = require( "spec/data/hostsResponse" );
+const projectsWithHostsParsed = require( "spec/data/projectsWithHostsParsed" );
 
 describe( "project store", () => {
 	let projectStore;

@@ -13,11 +13,11 @@ gulp.task( "test:build-karma-index", function() {
 	];
 
 	if ( argv.single ) {
-		karmaIndex.push( "require( \"./" + argv.single + "\" );" );
+		karmaIndex.push( "require( \"../js/" + argv.single + "\" );" );
 	} else {
 		karmaIndex = karmaIndex.concat(
-			glob.sync( argv.grep ? argv.grep : "**/*.spec.js*", { cwd: "./client/spec" } ).map( function( file ) {
-				return "require( \"./" + file + "\" );";
+			glob.sync( argv.grep ? argv.grep : "**/*.spec.js*", { cwd: "./client/js" } ).map( function( file ) {
+				return "require( \"../js/" + file + "\" );";
 			} )
 		);
 	}

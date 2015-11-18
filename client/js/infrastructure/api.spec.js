@@ -1,6 +1,6 @@
 import apiFactory from "inject!infrastructure/api";
-import packagesResponse from "../data/packagesResponse";
-import hostsResponse from "../data/hostsResponse";
+import packagesResponse from "spec/data/packagesResponse";
+import hostsResponse from "spec/data/hostsResponse";
 
 describe( "API", () => {
 	let dependencies, halonStubs, jQueryAdapter, api, actions, errorLog;
