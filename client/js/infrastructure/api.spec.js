@@ -1,3 +1,4 @@
+import { sinon, lux } from "setup";
 import apiFactory from "inject!infrastructure/api";
 import packagesResponse from "spec/data/packagesResponse";
 import hostsResponse from "spec/data/hostsResponse";

@@ -1,3 +1,4 @@
+import { sinon, lux, React, ReactUtils, ReactDOM, getMockReactComponent, should } from "setup";
 import appFactory from "inject!App";
 
 describe( "App Component", () => {

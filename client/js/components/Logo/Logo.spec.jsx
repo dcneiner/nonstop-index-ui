@@ -1,3 +1,4 @@
+import { React, ReactUtils, ReactDOM } from "setup";
 import logoFactory from "inject!Logo";
 
 describe( "Logo", () => {

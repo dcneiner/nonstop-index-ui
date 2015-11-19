@@ -1,3 +1,4 @@
+import { sinon, should, postal, lux, React, ReactUtils, ReactDOM, getMockReactComponent } from "setup";
 import toolbarFactory from "inject!Toolbar";
 
 describe( "Toolbar", () => {

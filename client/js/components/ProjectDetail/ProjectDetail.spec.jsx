@@ -1,3 +1,4 @@
+import { sinon, lux, postal, should, React, ReactUtils, ReactDOM, getMockReactComponent } from "setup";
 import projectDetailFactory from "inject!ProjectDetail";
 
 describe( "ProjectDetail Component", () => {

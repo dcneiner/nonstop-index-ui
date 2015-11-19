@@ -1,3 +1,4 @@
+import { lux, sinon } from "setup";
 var luxLocationFactoryInject = require( "inject!infrastructure/luxLocationFactory" );
 
 describe( "LuxLocation factory", function() {

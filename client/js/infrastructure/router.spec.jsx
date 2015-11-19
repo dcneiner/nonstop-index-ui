@@ -1,3 +1,4 @@
+import { sinon, React, ReactDOM, should, getMockReactComponent } from "setup";
 import routerFactory from "inject!infrastructure/router.jsx";
 import ReactRouter, { RouteHandler } from "react-router";
 

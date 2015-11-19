@@ -1,3 +1,4 @@
+import { sinon, React, ReactUtils, ReactDOM } from "setup";
 import projectListFactory from "inject!ProjectList";
 
 describe( "ProjectList", () => {

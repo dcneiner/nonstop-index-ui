@@ -1,3 +1,4 @@
+import { lux } from "setup";
 import projectStoreFactory from "inject!stores/projectStore";
 
 const packagesResponse = require( "spec/data/packagesResponse" );

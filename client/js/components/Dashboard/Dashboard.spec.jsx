@@ -1,3 +1,4 @@
+import { sinon, lux, React, ReactUtils, ReactDOM, getMockReactComponent, should, postal } from "setup";
 import dashboardFactory from "inject!Dashboard";
 
 describe( "Dashboard", () => {

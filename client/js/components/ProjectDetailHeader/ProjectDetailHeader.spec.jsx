@@ -1,3 +1,4 @@
+import { sinon, _, React, ReactUtils, ReactDOM, getMockReactComponent } from "setup";
 import projectDetailHeaderFactory from "inject!ProjectDetailHeader";
 
 describe( "ProjectDetailHeader", () => {

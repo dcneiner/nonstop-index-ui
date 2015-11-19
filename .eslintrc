@@ -1,17 +1,7 @@
 {
   "globals": {
     "DEBUG": false,
-    "define": false,
-    "_": false,
-    "lux": false,
-    "postal": false,
-    "React": false,
-    "ReactDOM": false,
-    "ReactUtils": false,
-    "should": false,
-    "sinon": false,
-    "when": false,
-    "getMockReactComponent": false
+    "define": false
   },
 
   "ecmaFeatures": {
@@ -37,11 +27,12 @@
     "no-underscore-dangle" : 0,
     "react/jsx-no-duplicate-props": 1,
     "react/jsx-no-undef": 1,
+    "react/jsx-uses-react": 1,
     "react/jsx-sort-prop-types": 1,
     "react/no-did-mount-set-state": [ 1, "allow-in-func" ],
     "react/no-did-update-set-state": 1,
     "react/react-in-jsx-scope": 1,
     "react/self-closing-comp": 1,
-    "react/prop-types": 0
+    "react/prop-types": 1
   }
 }

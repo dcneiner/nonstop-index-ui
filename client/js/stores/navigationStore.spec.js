@@ -1,3 +1,4 @@
+import { lux } from "setup";
 const navigationStoreFactory = require( "inject!stores/navigationStore" );
 
 describe( "navigation store", () => {

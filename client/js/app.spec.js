@@ -1,3 +1,4 @@
+import { _ } from "setup";
 import appFactory from "inject!app";
 
 describe( "app", () => {

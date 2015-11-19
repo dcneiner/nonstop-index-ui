@@ -1,3 +1,4 @@
+import { lux } from "setup";
 import layoutStoreFactory from "inject!stores/layoutStore";
 
 describe( "layout store", () => {

@@ -6,7 +6,7 @@ import HostList from "HostList";
 import HostConfigurator from "HostConfigurator";
 import luxLocationFactory from "infrastructure/luxLocationFactory";
 import navigationStore from "stores/navigationStore";
-import React from "react"; //eslint-disable-line no-unused-vars
+import React from "react";
 import ReactDOM from "react-dom";
 import config from "../clientConfig";
 

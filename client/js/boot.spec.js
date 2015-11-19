@@ -1,3 +1,4 @@
+import "setup";
 import bootFactory from "inject!boot";
 
 describe( "boot", () => {

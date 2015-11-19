@@ -1,3 +1,4 @@
+import { _, React, ReactUtils, ReactDOM } from "setup";
 import versionGroupFactory from "inject!VersionGroup";
 
 describe( "VersionGroup", () => {
